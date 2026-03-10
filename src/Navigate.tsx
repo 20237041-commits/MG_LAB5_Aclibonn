@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import logo from "./assets/logo.avif";
+import we from "./assets/we.avif";
 
 
 import Container from 'react-bootstrap/Container';
@@ -21,7 +21,7 @@ function Navigate() {
         
         <Navbar bg="dark" data-bs-theme="dark" style={{ padding: "25px 0" }}>
         <Container>
-          <Navbar.Brand >Zhein <img src={logo} alt="logo" style={{ width: "90px", height: "90px", borderRadius: "50%", marginLeft: "10px" }}/></Navbar.Brand>
+          <Navbar.Brand >Zhein <img src={we} alt="logo" style={{ width: "90px", height: "90px", borderRadius: "50%", marginLeft: "10px" }}/></Navbar.Brand>
           <Nav className="me-auto" style={{ fontSize: "30px" }}>
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
